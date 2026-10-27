@@ -1,0 +1,8 @@
+Oct 27, 2026 12:46:06 PM app.morphe.patcher.apk.ApkSigner$Signer signApk
+INFO: Signing APK
+PASS signature verification API 23; certificates=1
+Certificate SHA-256: 4bcbb5a2df3277c945657a02b39b496524bb93002ab7122b7b5b9fb5eb4a03d8
+PASS signature verification API 28; certificates=1
+Certificate SHA-256: 4bcbb5a2df3277c945657a02b39b496524bb93002ab7122b7b5b9fb5eb4a03d8
+PASS signature verification API 36; certificates=1
+Certificate SHA-256: 4bcbb5a2df3277c945657a02b39b496524bb93002ab7122b7b5b9fb5eb4a03d8

@@ -1,0 +1,3 @@
+TARGET classes40.dex native=false
+PASS: dex=40, classes=325310, duplicates=0, modified-DEX instructions register-checked=56071
+NOT tested: ART type/flow verification, native registration, server behavior, device UI.

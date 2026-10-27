@@ -1,0 +1,13 @@
+{
+  "file": "native-signed.apk",
+  "size_bytes": 333272044,
+  "sha256": "20f75e8c6fed615ec9558b5864af2e16ffe3727f9d24d6b086e51f377148709f",
+  "zip_crc": "PASS",
+  "dex_checksum_count": 40,
+  "native_library_count": 345,
+  "changed_native_libraries": [],
+  "removed_locale_files": 0,
+  "retained_locale_files": 60,
+  "uncompressed_native_entries_not_16k_aligned": [],
+  "status": "PASS (structural checks only)"
+}

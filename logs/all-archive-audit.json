@@ -1,0 +1,16 @@
+{
+  "file": "all-signed.apk",
+  "size_bytes": 332829204,
+  "sha256": "ec14c4b1129cad8e32b184fc4f5d8ec3d65c64cf90ddf8222a501ec9dfa4e956",
+  "zip_crc": "PASS",
+  "dex_checksum_count": 40,
+  "native_library_count": 345,
+  "changed_native_libraries": [
+    "lib/arm64-v8a/libapplovin-native-crash-reporter.so",
+    "lib/armeabi-v7a/libapplovin-native-crash-reporter.so"
+  ],
+  "removed_locale_files": 59,
+  "retained_locale_files": 1,
+  "uncompressed_native_entries_not_16k_aligned": [],
+  "status": "PASS (structural checks only)"
+}

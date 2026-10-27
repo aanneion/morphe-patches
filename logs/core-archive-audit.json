@@ -1,0 +1,13 @@
+{
+  "file": "core-signed.apk",
+  "size_bytes": 333272044,
+  "sha256": "d3ec0f4471ea74fbc1d7e832cb9ae79d97a0130924c3716f98eaaae8df304e58",
+  "zip_crc": "PASS",
+  "dex_checksum_count": 40,
+  "native_library_count": 345,
+  "changed_native_libraries": [],
+  "removed_locale_files": 0,
+  "retained_locale_files": 60,
+  "uncompressed_native_entries_not_16k_aligned": [],
+  "status": "PASS (structural checks only)"
+}

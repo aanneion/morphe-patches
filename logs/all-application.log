@@ -1,0 +1,129 @@
+Loaded 15 patch(es) for CapCut from capcut-combined-0.2.0-experimental.mpp:
+  ? Block Telemetry & Trackers
+  ? Bypass Effects Region Restriction
+  ? Bypass GeoBlock Region Restriction
+  ? Bypass Signature Check
+  ? Bypass Unsafe Package Modal
+  ? CapCut Combined - core
+  ? CapCut Combined - experimental native fix
+  ? Experimental main security interceptor passthrough
+  ? Locale Assets Slimmer
+  ? Native Bloat Slimmer
+  ? Redirect API to v2 Boot
+  ? Remove Watermark
+  ? Unlock Premium
+  ? Unlock Premium Templates
+  ? Unlock Ultra HD Export
+
+[INIT] Initializing Morphe Patcher engine...
+[INFO] Input version 19.9.0 (versionCode 19900002) matches target.
+[INFO] Input digest matches reference.
+[EXEC] Executing patch pipeline on original.apk (target: CapCut)...
+Oct 27, 2026 12:44:57 PM app.morphe.patcher.PatcherConfig initializeTemporaryFilesDirectories$morphe_patcher
+INFO: Deleting existing temporary files directory
+Oct 27, 2026 12:44:57 PM app.morphe.patcher.patch.ResourcePatchContext decodeResources$morphe_patcher
+INFO: Decoding the manifest
+Oct 27, 2026 12:45:00 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder prepareDecodingOnRequest
+INFO: Decoding resources on request, 27962 files can be decoded
+Oct 27, 2026 12:45:02 PM app.morphe.patcher.Patcher$invoke$1 invokeSuspend
+INFO: Executing patches
+[CapCut build guard] Exact package/version/versionCode accepted.
+[Block Telemetry & Trackers] Stripped 6 permissions, disabled 53 tracking components, removed 2 discovery registrars, and injected 8 opt-out flags in AndroidManifest.xml.
+Oct 27, 2026 12:45:02 PM app.morphe.patcher.util.PatchClasses buildInstructionIndexes
+INFO: Building instruction indexes for 325310 classes...
+[Block Telemetry & Trackers] Neutralized 198 telemetry dispatch methods: AppMeasurement.logEventInternal, AppsFlyerAnalytics.b, AppsFlyerDelegate.a, AppsFlyerAnalytics.c, AppsFlyerAnalytics.d, AppsFlyerDelegate.e, AppsFlyerDelegate.d, AppsFlyerDelegate.a, AppsFlyerAnalytics.e, AppsFlyerAnalytics.f, AppsFlyerDelegate.c, AppsFlyerAnalytics.g, AppLogInstance.notifyEventObserverBeforeReceive, AppLogInstance.onEventV3Inner, AppLogInstance.onEventV3InnerString, AppLogInstance.onEvent, AppLogInstance.onEventString, AppLogInstance.onEventV3, AppLogInstance.onEventV3String, AppLogInstance.onInternalEventV3, AppLogInstance.onMiscEvent, AppLogInstance.setBDInstallEventTrackEnabled, AppLogInstance.setBatchProcessEventCount, AppLogInstance.setEnableEventInTouristMode, AppLogInstance.setEnableEventPriority, AppLogInstance.setEnableEventUserId, AppLogInstance.setEventFilterByClient, AppLogInstance.setEventForwardEnabled, AppLogInstance.setEventParamControlEnabled, AppLogInstance.setEventSamplingEnable, AppLogInstance.setEventSenderEnable, AppLogInstance.setInsertEventOptEnabled, AppLogInstance.setMaxCacheEventNum, AppLogInstance.setTeaEventSamplingEnable, AppLogInstance.setTrackResumeEvent, AppLog.run, AppLog.putEvent, AppLog.run, AppLog.run, AppLog.run, AppLog.handleEvent, AppLog.onEvent, AppLog.monitorPackJsonCleanUp, AppLog.putEvent, AppLog.monitorPackJsonReported, AppLog.onEventV3, AppLog.onEvent, ApmAgent.addBlockFilter, ApmAgent.addDebugMessage, ApmAgent.addFpsFilter, ApmAgent.addPerfTag, ApmAgent.configSceneMinDuration, ApmAgent.feedbackReport, ApmAgent.monitorApiError, ApmAgent.monitorApiError, ApmAgent.monitorCommonLog, ApmAgent.monitorCommonLog, ApmAgent.monitorDirectOnTimer, ApmAgent.monitorDuration, ApmAgent.monitorDuration, ApmAgent.monitorEvent, ApmAgent.monitorEvent, ApmAgent.monitorExceptionLog, ApmAgent.monitorImageSample, ApmAgent.monitorPageLoad, ApmAgent.monitorPerformance, ApmAgent.monitorPerformance, ApmAgent.monitorSLA, ApmAgent.monitorSLA, ApmAgent.monitorStatusAndDuration, ApmAgent.monitorStatusAndEvent, ApmAgent.monitorStatusRate, ApmAgent.monitorUIAction, ApmAgent.monitorUIAction, ApmAgent.notifyNotSampled, ApmAgent.removePerfTag, ApmAgent.reportFeedbackInfo, ApmAgent.reportLegacyMonitorLog, ApmAgent.setReportMode, ApmAgent.startBatteryCollect, ApmAgent.startCollectCurrent, ApmAgent.startCpuMonitor, ApmAgent.startScene, ApmAgent.startTrafficStats, ApmAgent.startTrafficStats, ApmAgent.stopBatteryCollect, ApmAgent.stopCollectCurrent, ApmAgent.stopCpuMonitor, ApmAgent.stopScene, ApmAgent.stopTrafficStats, ApmAgent.storeLogBypass, ApmAgent.trafficStats, ApmAgent.weedOutOldestLogFiles, CommonEventDeliverer.a, CommonEventDeliverer.b, CommonEventDeliverer.c, CommonEventDeliverer.d, CommonEventDeliverer.e, CommonEventDeliverer.f, CommonEventDeliverer.h, LogReporter.a, LogReporter.b, LogReporter.d, LogReporter.e, LogReporter.f, LogReporter.g, ReportManagerWrapper.addExtraParams, ReportManagerWrapper.addExtraParams, ReportManagerWrapper.onEvent$default, ReportManagerWrapper.onEventV3$default, ReportManagerWrapper.addGlobalParameter, ReportManagerWrapper.onActivityCreate, ReportManagerWrapper.onActivityPause, ReportManagerWrapper.onActivityResume, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEvent, ReportManagerWrapper.onEventBundle, ReportManagerWrapper.onEventJsonObject, ReportManagerWrapper.onEventV3, ReportManagerWrapper.onInternalEventV3, ReportManagerWrapper.recordMiscLog, ReportManagerWrapper.removeGlobalParameter, ReportManagerWrapper.setAddReportExtraParams, ReportManagerWrapper.setEventVerifyEnable, ReportManagerWrapper.setEventVerifyUrl, Reporter.a, Reporter.b, Reporter.c, Reporter.d, Reporter.e, Reporter.f, Reporter.g, Reporter.h, Reporter.i, Reporter.j, Reporter.k, Reporter.l, Reporter.onActivityCreate, Reporter.onEvent, Reporter.onEvent, Reporter.onEvent, Reporter.onEventV3, Reporter.onInternalEventV3, Reporter.recordMiscLog, TempStaticsNetInterceptor.intercept, UploadStatistic.a, UploadStatistic.d, UploadStatistic.e, UploadStatistic.f, UploadStatistic.g, UploadStatistic.h, UploadStatistic.i, UploadStatistic.j, UploadStatistic.k, UploadStatistic.l, UploadStatistic.m, PitayaApplogProxy.onEvent, PitayaApplogProxy.onEvent, PitayaApplogProxy.setInit, CepEngineManager.onEvent$default, CepEngineManager.tryLoadSubModule, CepEngineManager.configEngine, CepEngineManager.init, CepEngineManager.onEvent, CepEngineManager.registerFunction, CepEngineManager.unregisterCallback, CepEngineManager.unregisterFunction, CepEngineManager.unregisterRule, EventReport.addToJsonIfNew, EventReport.addToJsonIfNew, EventReport.addToJsonIfNew, EventReport.addToJsonIfNew, EventReport.addToJsonIfNew, EventReport.onEvent, EventReport.setSamplingRate, EventReport.setSamplingRates, EventReport.statisticCloseReason, EventReport.statisticDialogBackground, EventReport.statisticDialogPop, EventReport.statisticLoadPage, EventReport.statisticNativeRequest, EventReport.statisticOrientation, EventReport.statisticOrientationChange, EventReport.statisticPreCreateLoadSuccess, EventReport.statisticPreCreateSuccess, EventReport.statisticSdkInit, EventReport.statisticSetting, EventReport.statisticSystemTooLow, EventReport.statisticVerifyResult, EventReport.verifyStart, HttpEventUploader.a.
+[PASS] Block Telemetry & Trackers
+[Bypass Effects Region Restriction] Applied 3 hooks -> Shark WAF block bypassed.
+[PASS] Bypass Effects Region Restriction
+[Bypass GeoBlock Region Restriction] Applied 5 hooks -> GeoBlock lists forced empty.
+[PASS] Bypass GeoBlock Region Restriction
+[Bypass Signature Check] Applied 10 hooks -> APK signature spoofed to official, tamper gates disabled, cracking verdict persistence and security dialog render stubbed, template-feed cracking interceptor neutralized, PGL signature verification stubbed.
+[PASS] Bypass Signature Check
+[Bypass Unsafe Package Modal] Applied 1 hook(s) -> unsafe modal fallback points at template portal.
+[PASS] Bypass Unsafe Package Modal
+[Redirect API to v2 Boot] Applied 63 rewrites -> editor-api.capcutapi.com: 19, feed-api.capcutapi.com: 34, commerce-api.capcutapi.com: 7, passport-api.capcutapi.com: 3.
+[Remove Watermark] Applied 7 hooks -> watermark and default ending gates forced to allow removal.
+[Unlock Ultra HD Export] Applied 5 hooks -> ultra HD export gates forced to unlocked.
+[Unlock Premium] Applied 14 hooks -> VIP gates forced to true.
+[Unlock Premium Templates] Applied 5 hooks -> premium template flags enabled.
+[CapCut Combined core] Dependency patches applied; runtime validation still required.
+[PASS] CapCut Combined - core
+[Experimental main interceptor] Replaced one native method. Device validation REQUIRED; server responses remain unchanged.
+[CapCut Combined native] Experimental native candidate included; test on device before release.
+[PASS] CapCut Combined - experimental native fix
+[PASS] Experimental main security interceptor passthrough
+[CapCut Locale Assets Slimmer] Stripped 59 unselected asset locale files -> Saved 106 KB (retained locales: en, en-us)
+[PASS] Locale Assets Slimmer
+[CapCut Native Slimmer] Stripped 2 companion native libraries (lib/arm64-v8a/libapplovin-native-crash-reporter.so, lib/armeabi-v7a/libapplovin-native-crash-reporter.so) -> Saved 1.30 MB
+[PASS] Native Bloat Slimmer
+[PASS] Redirect API to v2 Boot
+[PASS] Remove Watermark
+[PASS] Unlock Premium
+[PASS] Unlock Premium Templates
+[PASS] Unlock Ultra HD Export
+
+========================================
+FINAL PATCHING RESULT
+========================================
+Target App:    CapCut (com.lemon.lvoverseas)
+APK File:      original.apk
+Total patches: 15
+Successful:    15
+Failed:        0
+Detected Fingerprint Failures: 0
+Detected Smali Compile Errors: 0
+Patches with skipped steps: 0
+Slowest patches:
+  8.2 s  Block Telemetry & Trackers (includes pipeline startup)
+  0.9 s  Locale Assets Slimmer
+  0.6 s  Native Bloat Slimmer
+  0.3 s  CapCut Combined - core
+  0.0 s  Bypass GeoBlock Region Restriction
+Total patch time: 10.1 s
+
+[BUILD] Compiling modified bytecode & assets via patcher.get()...
+Oct 27, 2026 12:45:07 PM app.morphe.patcher.patch.BytecodePatchContext get
+INFO: Compiling patched dex files (mode: STRIP_FAST)
+Oct 27, 2026 12:45:07 PM app.morphe.patcher.patch.BytecodePatchContext logMutableClassCount
+INFO: Changed 130 of 325310 classes to mutable
+Oct 27, 2026 12:45:07 PM app.morphe.patcher.patch.BytecodePatchContext compileStripFast
+INFO: Writing 130 new classes to new DEX files
+Oct 27, 2026 12:45:07 PM app.morphe.patcher.dex.DexReadWrite writeMultiDexFile$morphe_patcher
+INFO: Processing 130 classes (single threaded mode)
+Oct 27, 2026 12:45:07 PM app.morphe.patcher.dex.DexReadWrite writeMultiDexFile$morphe_patcher
+INFO: Wrote 1 dex files to /home/user/capcut-combined/build/tmp/patcher-test-workspace/patched/newDex
+Oct 27, 2026 12:45:08 PM app.morphe.patcher.patch.BytecodePatchContext compileStripFast
+INFO: Stripped 130 modified classes from 22 original DEX files
+Oct 27, 2026 12:45:08 PM app.morphe.patcher.patch.ResourcePatchContext get
+INFO: Compiling modified resources
+Oct 27, 2026 12:45:08 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder stripNativeLibraries$morphe_patcher
+INFO: Stripping libs (keeping architectures arm64-v8a, armeabi-v7a)
+Oct 27, 2026 12:45:08 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder stripNativeLibraries$morphe_patcher
+INFO: Stripped 0 lib files
+Oct 27, 2026 12:45:12 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder prepareBookkeepingFiles
+INFO: Decoded 2 of 27962 files on request
+Oct 27, 2026 12:45:12 PM app.morphe.patcher.resource.processor.StringsXmlProcessor process
+INFO: Unescaping strings
+Oct 27, 2026 12:45:12 PM app.morphe.patcher.resource.processor.AaptMacroProcessor process
+INFO: Processing aapt macros
+Oct 27, 2026 12:45:12 PM app.morphe.patcher.resource.processor.ResourceIdProcessor process
+INFO: Generating new resource IDs
+Oct 27, 2026 12:45:12 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder encodeResources
+INFO: Writing resource APK
+Oct 27, 2026 12:45:14 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder encodeResourcesIncrementally
+INFO: Reusing 27963 unchanged archive entries, rebuilding 2 entries, dropping 61 entries, leaving out 25 replaced entries
+Oct 27, 2026 12:45:16 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder encodeResourcesIncrementally
+INFO: Resource APK scan: 600ms write: 1.3s
+Oct 27, 2026 12:45:16 PM app.morphe.patcher.resource.coder.ArsclibResourceCoder getOtherResourceFiles
+INFO: Moving 2 resource files
+[BUILD] Compiled 23 DEX files successfully.
+[BUILD] DEX header check: 40 file(s) inspected, 0 malformed.
+
+[PACK] Applying patcher result to APK (source: 322464224 bytes)...
+Oct 27, 2026 12:45:16 PM app.morphe.patcher.apk.ApkUtils applyTo
+INFO: Using compiled resource APK as output base
+Oct 27, 2026 12:45:20 PM app.morphe.patcher.apk.ApkUtils applyTo
+INFO: Aligning APK
+[PACK] Synchronized patched AndroidManifest.xml from resources.apk (218908 bytes)
+[PACK] After applyTo: unsignedApk exists=true, size=330636512 bytes
+[DONE] Unsigned assembled APK saved for separate-process signing: /home/user/.cache/capcut/all-unsigned.apk
